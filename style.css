@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-primary: 'Epilogue', sans-serif;
+  --font-second: 'Work Sans', sans-serif;
+  --font-color: #2e2e2e;
+  --font-color-second: white;
+  --back-color: #e7e7f5;
+  --color-primary: #0E6592;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--back-color);
+  color: var(--font-color);
+}
+
+header {
+  display: flex;
+  margin: 2.5rem 5rem 7rem;
+  font-family: var(--font-second);
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+header span {
+  color: var(--font-color);
+}
+
+.links {
+  margin: 0 auto;
+}
+
+.links a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.links a:hover {
+  font-size: 2.5rem;
+}
+
+button {
+  width: 13rem;
+  height: 5rem;
+  font-size: 2rem;
+  background: var(--color-primary);
+  color: var(--back-color);
+  border: none;
+  border-radius: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: var(--back-color);
+}
+
+.banner {
+  margin: auto;
+  width: 127.1rem;
+  height: 45rem;
+  background: var(--color-primary);
+  color: var(--font-color-second);
+  border: none;
+  border-radius: 3rem;
+  padding-top: 2rem;
+}
+
+.partOne {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 -2rem;
+  font-size: 2.5rem;
+}
+
+.img {
+  margin-top: -2.7rem;
+}
+
+.partTwo {
+  margin-top: 6rem;
+}
+
+.partTwo img {
+  border-radius: 1.5rem;
+}
+
+.partTwo img:nth-child(1) {
+  margin-right: 1rem;
+}
+
+.quite {
+  text-align: center;
+}
+
+p {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  margin: 7rem 0 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.cards {
+  display: flex;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.icones {
+  margin: auto;
+}
+
+.icones h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.icones p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: var(--font-color);
+}
+
+.icones span {
+  color: var(--color-primary);
+}
+
+footer {
+  display: flex;
+  margin: 5rem auto;
+  width: 127.1rem;
+  height: 23.7rem;
+  font-size: 2rem;
+  background: var(--color-primary);
+  color: var(--back-color);
+  border-radius: 3rem;
+}
+
+.first {
+  margin: auto;
+}
+
+.imgs-download {
+  display: grid;
+  margin: auto;
+}
+
+.imgs-download img {
+  border-radius: 1.5rem;
+}
+
+.imgs-download img:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.imgs-download img:hover,
+.partTwo img:hover {
+  transform: scale(1.05);
+}
